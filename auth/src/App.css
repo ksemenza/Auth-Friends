@@ -1,0 +1,139 @@
+
+.App {
+  text-align: center;
+
+}
+
+.App-logo {
+  height: 3rem;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #00BCD4 ;
+  max-height: 45rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  color: #FFA726;
+}
+
+header {
+  width: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.friend-img{
+  width: 8.2rem;
+  margin-top: .2rem;
+}
+
+nav {
+  margin: 1.5rem;
+  border: 1px inset white;
+  width: 100%;
+  padding: 1.4rem;
+  margin-bottom: -0.4rem;
+  background-color: #00ACC1;
+}
+
+.login-link {
+  margin-right: 1.5rem;
+  color:#FFA726;
+  text-decoration: none;
+  font-weight: 600;
+
+}
+.your-friends {
+background-color: #FFA726;
+width: 67.5%;
+margin: 0 auto;
+padding: 1.2rem 0;
+color: white;
+}
+
+h2 {
+  color:#00ACC1 ;
+  font-size: 1.8rem;
+}
+
+.friend-add-cta {
+  margin: 0 auto;
+  color:#00ACC1;
+}
+
+.friend-link{
+  margin-left: 1.5rem;
+  color:#FFA726;
+  font-weight: 600;
+  text-decoration: none;
+
+}
+
+.friend-cta {
+  border: 3px groove #FFA726 ;
+  width: 35%;
+  margin: 1.5rem;
+  padding: 1.5rem;
+  color: white ;
+  font-size: 1.5rem;
+  background-color: #00BCD4;
+}
+
+.friends-list-cta {
+  border: 1px solid #FFA726 ;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+ padding: 1.5rem;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.friend-edit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+button {
+  width: 5.4rem;
+  margin: 1.5rem;
+  font-size: 1.2rem;
+  padding: 0.2rem 0;
+}
+
+label {
+  margin-bottom: 0.4rem;
+  margin-top: 0.4rem;
+}
+
+input {
+  width: 15rem;
+  padding: 0.4rem;
+  font-size: 1.2rem;
+  margin: 0  0.5rem;
+}
