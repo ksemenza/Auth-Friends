@@ -19,7 +19,6 @@ const FriendForm = props => {
             <form onSubmit={handleSubmit}>
                 <label htmlFor='name'/>
                 <input type='text' name='name' placeholder='Name' value={friend.name} onChange={handleChange} />
-                
                 <label htmlFor='age'/>
                 <input type='number' name='age' placeholder='Age' value={friend.age} onChange={handleChange} />
                 <label htmlFor='email'/>

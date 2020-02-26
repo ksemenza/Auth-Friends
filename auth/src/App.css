@@ -1,6 +1,7 @@
 
 .App {
   text-align: center;
+  background-color: #0e1111;
 
 }
 
@@ -16,7 +17,7 @@
 }
 
 .App-header {
-  background-color: #00BCD4 ;
+  background-color: #0e1111 ;
   max-height: 45rem;
   display: flex;
   flex-direction: column;
@@ -54,7 +55,16 @@ nav {
   width: 100%;
   padding: 1.4rem;
   margin-bottom: -0.4rem;
-  background-color: #00ACC1;
+  background-color: 	#232b2b;
+}
+
+.login-link:hover {
+  color: #353839;
+  -webkit-text-stroke: 0.03rem #FFA726;
+}
+.friend-link:hover {
+  color: #353839;
+  -webkit-text-stroke: 0.03rem #FFA726;
 }
 
 .login-link {
@@ -65,21 +75,23 @@ nav {
 
 }
 .your-friends {
-background-color: #FFA726;
+border: 2px groove 	#353839;
+background-color: #232b2b;
 width: 67.5%;
 margin: 0 auto;
 padding: 1.2rem 0;
-color: white;
+color: #FFA726
 }
 
 h2 {
-  color:#00ACC1 ;
+  color:#FFA726 ;
   font-size: 1.8rem;
 }
 
 .friend-add-cta {
   margin: 0 auto;
   color:#00ACC1;
+
 }
 
 .friend-link{
@@ -87,21 +99,22 @@ h2 {
   color:#FFA726;
   font-weight: 600;
   text-decoration: none;
-
 }
 
 .friend-cta {
-  border: 3px groove #FFA726 ;
+  border: 3px groove 	#353839 ;
   width: 35%;
   margin: 1.5rem;
   padding: 1.5rem;
-  color: white ;
+  color: #FFA726 ;
   font-size: 1.5rem;
-  background-color: #00BCD4;
+  background-color: #232b2b;
 }
 
+
+
 .friends-list-cta {
-  border: 1px solid #FFA726 ;
+  border: 1px solid 	#353839 ;
   display: flex;
   justify-content: center;
   align-content: center;
@@ -109,6 +122,7 @@ h2 {
  padding: 1.5rem;
   width: 65%;
   margin: 0 auto;
+  background-color: #0e1111;
 }
 
 .friend-edit {
@@ -121,9 +135,18 @@ h2 {
 
 button {
   width: 5.4rem;
+  height: 2.4rem;
   margin: 1.5rem;
   font-size: 1.2rem;
   padding: 0.2rem 0;
+  background-color: #FFA726;
+  border-color: rgb(255, 168, 38);
+}
+
+button:hover {
+  background-color: #0e1111;
+  color: #FFA726;
+  border-color: #353839;
 }
 
 label {
@@ -136,4 +159,5 @@ input {
   padding: 0.4rem;
   font-size: 1.2rem;
   margin: 0  0.5rem;
+ 
 }
